@@ -96,7 +96,7 @@ def interface(database_path):
             print(count_distinct_bikes(session, station))
             print()
         elif user_input == '6':
-            user = input("input a station name: ")
+            user = input("input a bike number: ")
             print(find_longest_rental_duration_for_bike(session, user))
             print()
         else:
