@@ -10,7 +10,6 @@ import os
 NONE_STATION = "Poza stacją"
 
 
-
 def load_data_from_csv(data_file, engine):
     with open(data_file,"r", encoding="utf-8") as file:
         csv_reader=csv.reader(file)
